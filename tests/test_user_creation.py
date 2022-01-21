@@ -19,7 +19,7 @@ class TestUserCreate():
 
         response = Requests.post("/api/user", data=test_data)
 
-        Assertions.assert_code_status(response, 200)
+        Assertions.assert_code_status(response, 201)
         Assertions.assert_json_has_keys(response, ["name", "job", "id", "createdAt"])
 
         Assertions.assert_json_value_by_name(
