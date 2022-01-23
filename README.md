@@ -9,7 +9,7 @@ https://reqres.in/api/users/{id}
 https://docs.google.com/spreadsheets/d/1G0GwfdGZFxHw7pk2FUmShdH91QXZsEse65-bbTDL0GQ/edit?usp=sharing
 
 How to run tests
-python -m pytest --alluredir=test_results/ tests/
+{code}python -m pytest --alluredir=test_results/ tests/{code}
 
 
 How to generate allure report
